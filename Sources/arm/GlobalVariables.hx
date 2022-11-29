@@ -7,6 +7,7 @@ class GlobalVariables extends Trait {
 	public static var PLAYER_SENSITIVITY: Float = 0.5;
 	public static var PLAYER_WEAPON: String = "";
 	public static var WEAPONS_LIST: Array<String> = ["Weapon_Pistol", "Weapon_Assault", "Weapon_Ak47", "Weapon_Sniper", "Weapon_Shotgun"];
+	public static var SOUND_VOLUME: Float = 2.0;
 	public static var SOUND_SCOPE = "210018__supakid13__sniper-scope-zoom-in.wav";
 	public static var SOUND_SWITCH = "170273__knova__change-weapon-sound.wav";
 	public static var SCOPE_FOV_INIT: Float = 0.0;

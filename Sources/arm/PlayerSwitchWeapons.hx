@@ -25,7 +25,7 @@ class PlayerSwitchWeapons extends Trait {
 	function switchWeapons(w) {
 		Data.getSound(GlobalVariables.SOUND_SWITCH, (s:kha.Sound) -> {
 			var C = Audio.play(s);
-			C.volume = 10.0;
+			C.volume = GlobalVariables.SOUND_VOLUME;
 		});
 		for (i in GlobalVariables.WEAPONS_LIST) if (i != GlobalVariables.WEAPONS_LIST[w]) Scene.active.getChild(i).visible = false;
 		Scene.active.getChild(GlobalVariables.WEAPONS_LIST[w]).visible = !Scene.active.getChild(GlobalVariables.WEAPONS_LIST[w]).visible;

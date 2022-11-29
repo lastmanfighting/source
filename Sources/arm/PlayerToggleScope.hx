@@ -25,7 +25,7 @@ class PlayerToggleScope extends Trait {
 	function playerScope(b, i, v) {
 		Data.getSound(GlobalVariables.SOUND_SCOPE, (s:kha.Sound) -> {
 			var C = Audio.play(s);
-			C.volume = 10.0;
+			C.volume = GlobalVariables.SOUND_VOLUME;
 		});
 		if (b) GlobalVariables.SCOPE_ALPHA = GlobalVariables.SCOPE_ALPHA_ON;
 		else GlobalVariables.SCOPE_ALPHA = GlobalVariables.SCOPE_ALPHA_OFF;
