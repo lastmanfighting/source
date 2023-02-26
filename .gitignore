@@ -1,0 +1,7 @@
+# Root
+/build*
+A3D_LMF*
+khafile.js
+*.bat
+# Sources
+/Sources/Main.hx

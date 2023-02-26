@@ -2,10 +2,14 @@
 
 [W], [S], [D], [A] = Walk
 
-[Mouse Movement] = Look
-
-[Left Mouse] = Fire
+[Left Shift] = Sprint
 
 [R] = Reload
 
-[Q] = Toggle Equipped
+[1], [2], [3] = Set Equipped
+
+[F] = Melee
+
+[Mouse Movement] = Look
+
+[Left Mouse] = Fire
